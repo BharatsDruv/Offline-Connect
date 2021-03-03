@@ -4,7 +4,15 @@ display-flex, .display-flex, .display-flex-center, .signup-content, .signin-cont
   display: -webkit-flex; }
 
 
-
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
 /* poppins-300 - latin */
 @font-face {
   font-family: 'Poppins';
