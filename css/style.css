@@ -10,7 +10,7 @@ display-flex, .display-flex, .display-flex-center, .signup-content,
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #4EA4D2;
     color: white;
     text-align: center;
   }
@@ -494,3 +494,34 @@ label.valid {
     -webkit-flex-direction: column;
     -o-flex-direction: column;
     -ms-flex-direction: column; }
+  }
+
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4EA4D2;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.logo{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Style the links inside the navigation bar */
+.item {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
