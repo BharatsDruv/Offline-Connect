@@ -19,157 +19,98 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans'>
   <link rel="stylesheet" href="css/dashboard1.css">
 </head>
-
 <body>
-  <div class="topnavi">
-    <a href="#" class="logo">Dashboard</a>
-    <a href="index.jsp" class="item">Logout</a>
-    <a href="#contact" class="item">Contact</a>
-    <a href="#about" class="item">About</a>
-  </div>
-  <div class="container1">
-
-
-
-    <div class="post create">
-      <div class="header_post">
-        <img src="createimage.jpeg" alt="">
-      </div>
-
-      <div class="body_post">
-        <div class="post_content">
-
-          <h1>Create Organisation</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi assumenda cumque deserunt
-            dolorum ex exercitationem.</p>
-
-          <div class="container_infos">
-
-            <button type="button" class="button one" data-toggle="modal" data-target="#exampleModal">
-              Create
-            </button>
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="post join">
-      <div class="header_post">
-        <img src="joinimages.jpeg" alt="">
-      </div>
-
-      <div class="body_post">
-        <div class="post_content">
-
-          <h1>Join Organisation</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi assumenda cumque deserunt
-            dolorum ex exercitationem.</p>
-
-          <div class="container_infos">
-
-            <button type="button" class="button two" data-toggle="modal" data-target="#joinModal">Join</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal -->
-   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="column" id="main">
-            <h1>Create Organisation </h1>
-            <h3>Here you can create your own organisation by filling up some details</h3>
-            <form>
-              <div class="form-group">
-                <label for="exampleInputName">Organisation Name</label>
-                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">E-mail </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <button type="submit" class="btn btn-primary">Create</button>
-            </form>
-          </div>
-          <div>
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg width="67px" height="578px" viewBox="0 0 67 578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-                <title>Path</title>
-                <desc>Created with Sketch.</desc>
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <path d="M11.3847656,-5.68434189e-14 C-7.44726562,36.7213542 5.14322917,126.757812 49.15625,270.109375 C70.9827986,341.199016 54.8877465,443.829224 0.87109375,578 L67,578 L67,-5.68434189e-14 L11.3847656,-5.68434189e-14 Z" id="Path" fill="#4dd2ff"></path>
-                </g>
-            </svg>
-          </div>
-          <div class="column" id="secondary">
-            <div class="sec-content">
-              <h2>Welcome to Offline Connect!</h2>
-              <h3>Create/Join Organisations and connect with team members offline!</h3>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="row first">
+        <a href="#" class="logo">Dashboard</a>
+          <a href="#about" class="item">About</a>
+          <a href="#contact" class="item">Contact</a>
+        <a href="index.jsp" class="item">Logout</a>
   </div>
 
-  <div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">
-       <div class="modal-body">
-         <div class="column" id="main">
-           <h1>Join Organisation </h1>
-           <h3>Here you can join any organisation by entering its unique id</h3>
-           <form>
-             <div class="form-group">
-               <label for="exampleInputName">Your Name</label>
-               <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-             </div>
-             <div class="form-group">
-               <label for="exampleInputEmail1">E-mail </label>
-               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-             </div>
-             <div class="form-group">
-               <label for="uniqueid">Unique ID</label>
-               <input type="password" class="form-control" id="uniqueid" placeholder="UniqueID">
-             </div>
-             <button type="submit" class="btn btn-primary">Join</button>
-           </form>
-         </div>
-         <div>
-           <?xml version="1.0" encoding="UTF-8"?>
-           <svg width="67px" height="578px" viewBox="0 0 67 578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<div class="row">
 
-               <title>Path</title>
-               <desc>Created with Sketch.</desc>
-               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                   <path d="M11.3847656,-5.68434189e-14 C-7.44726562,36.7213542 5.14322917,126.757812 49.15625,270.109375 C70.9827986,341.199016 54.8877465,443.829224 0.87109375,578 L67,578 L67,-5.68434189e-14 L11.3847656,-5.68434189e-14 Z" id="Path" fill="#4dd2ff"></path>
-               </g>
-           </svg>
-         </div>
-         <div class="column" id="secondary">
-           <div class="sec-content">
-             <h2>Welcome to Offline Connect!</h2>
-             <h3>Create/Join Organisations and connect with team members offline!</h3>
+      <div class="col">
 
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
+          <section class="signup">
+              <div class="container">
+                  <div class="signup-content">
+                      <div class="signup-form">
+                          <h2 class="form-title">Create </h2>
+                          <form method="POST" class="register-form" id="register-form">
+                              <div class="form-group">
+                                  <label for="name"><i class="zmdi zmdi-globe material-icons-name"></i></label>
+                                  <input type="text" name="org" id="org" placeholder="Your Organization"/>
+                              </div>
+                              <div class="form-group">
+                                  <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                  <input type="password" name="pass" id="pass" placeholder="Organisation ID"/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                  <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                              </div>
+                              <div class="form-group form-button">
+                                  <input type="submit" name="create" id="create" class="form-submit" value="Create"/>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="signup-image">
+                          <figure><img src="createimage.jpeg" alt="sing up image"></figure>
+                      </div>
+                  </div>
+              </div>
+          </section>
+        </div>
 
+
+      <div class="col">
+        <!-- <div class="centered"> -->
+          <section class="signup">
+              <div class="container">
+                  <div class="signup-content">
+                      <div class="signup-form">
+                          <h2 class="form-title">Join</h2>
+                          <form method="POST" class="register-form" id="register-form">
+                              <div class="form-group">
+                                  <label for="name"><i class="zmdi zmdi-globe material-icons-name"></i></label>
+                                  <input type="text" name="org" id="org" placeholder="Your Organization"/>
+                              </div>
+                              <div class="form-group">
+                                  <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                  <input type="password" name="pass" id="pass" placeholder="Organisation ID"/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                  <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                              </div>
+                              <div class="form-group form-button">
+                                  <input type="submit" name="create" id="create" class="form-submit" value="Join"/>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="signup-image">
+                          <figure><img src="joinimages.jpeg" alt="sing up image"></figure>
+                      </div>
+                  </div>
+              </div>
+          </section>
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<div class="footer">
+<p>
+    <center>&copy; 2021 All rights reserved.<br>
+    Offline Connect</center>
+</p>
+</div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
@@ -178,3 +119,4 @@
 </body>
 
 </html>
+
