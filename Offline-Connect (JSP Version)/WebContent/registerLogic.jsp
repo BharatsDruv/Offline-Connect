@@ -11,7 +11,7 @@
 		String email= request.getParameter("email");
 		String password = request.getParameter("pass");
 		String passwordRe = request.getParameter("re_pass");
-		String org = request.getParameter("org");
+		
        
 		if(name.isEmpty() || email.isEmpty() || password.isEmpty() || 
 				passwordRe.isEmpty() || org.isEmpty() )
@@ -38,7 +38,7 @@
 		      System.out.println("Creating statement...");
 		      Statement stmt = conn.createStatement();
 		      String sql;
-		      sql = "INSERT INTO users VALUES('"+name+"','"+email+"','"+password+"','"+org+"');";
+		      sql = "INSERT INTO users VALUES('"+name+"','"+email+"','"+password+"');";
 		      System.out.println(stmt.executeUpdate(sql));
            
 		      System.out.println("okay");
