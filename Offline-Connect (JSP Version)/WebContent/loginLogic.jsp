@@ -9,7 +9,7 @@
         <%
         String email= request.getParameter("email");
 		String password = request.getParameter("your_pass");
-		session.setAttribute("mail",email);
+		session.setAttribute("email",email);
 		
 		    
 		if( email.isEmpty() || password.isEmpty())
