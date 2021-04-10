@@ -29,7 +29,7 @@
 			
 			   //  Database credentials
 			  String USER = "root";
-			  String PASS = "1234";
+			  String PASS = "";
         
    			 
 	          
