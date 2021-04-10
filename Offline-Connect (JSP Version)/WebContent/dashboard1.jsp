@@ -22,6 +22,7 @@
 <body>
   <div class="row first">
         <a href="#" class="logo">Dashboard</a>
+        <a href="dashboard2.jsp" class="item">My_Organisations</a>
           <a href="#about" class="item">About</a>
           <a href="#contact" class="item">Contact</a>
         <a href="index.jsp" class="item">Logout</a>
@@ -36,10 +37,10 @@
                   <div class="signup-content">
                       <div class="signup-form">
                           <h2 class="form-title">Create </h2>
-                          <form method="POST" class="register-form" id="register-form">
+                          <form action="createLogic.jsp" method="POST" class="register-form" id="register-form">
                               <div class="form-group">
                                   <label for="name"><i class="zmdi zmdi-globe material-icons-name"></i></label>
-                                  <input type="text" name="org" id="org" placeholder="Your Organization"/>
+                                  <input type="text" name="name" id="org" placeholder="Your Organization"/>
                               </div>
                               <div class="form-group">
                                   <label for="pass"><i class="zmdi zmdi-lock"></i></label>
@@ -70,10 +71,10 @@
                   <div class="signup-content">
                       <div class="signup-form">
                           <h2 class="form-title">Join</h2>
-                          <form method="POST" class="register-form" id="register-form">
+                          <form action="joinLogic.jsp" method="POST" class="register-form" id="register-form">
                               <div class="form-group">
                                   <label for="name"><i class="zmdi zmdi-globe material-icons-name"></i></label>
-                                  <input type="text" name="org" id="org" placeholder="Your Organization"/>
+                                  <input type="text" name="name" id="org" placeholder="Your Organization"/>
                               </div>
                               <div class="form-group">
                                   <label for="pass"><i class="zmdi zmdi-lock"></i></label>
