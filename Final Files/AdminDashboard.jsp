@@ -37,7 +37,6 @@
              <th>Name</th>
              <th>Email</th>
              <th>Password</th>
-             <th>Organisation</th>
           </tr>
       </thead>
       <tbody>
@@ -48,7 +47,6 @@
                 <td><%=rs.getString("name") %></td>
                 <td><%=rs.getString("email") %></td>
                 <td><%=rs.getString("password") %></td>
-                <td><%=rs.getString("org") %></td>
             </tr>
             <%}%>
            </tbody>
