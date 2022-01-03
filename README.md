@@ -37,7 +37,7 @@
   <h3 align="center">Offline-Connect</h3>
 
   <p align="center">
-    Intranet mailing system for internetless communication.
+    Intranet mailing system for intra-org communication.
     <br />
     <a href="https://github.com/BharatsDruv/Offline-Connect/issues">Report Bug</a>
     ·
@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- <img src="https://raw.githubusercontent.com/BharatsDruv/Offline-Connect/master/Offline-Connect.png" alt="Logo" width="384" height="216">
+ <img src="https://raw.githubusercontent.com/BharatsDruv/Offline-Connect/master/Offline-Connect.png" alt="Logo" width="768" height="432">
 
 This is an web-application build for smooth communication between departments of same organisations. <br>
 Features includes: New user registration, sign in of existing user, conventional mail options like Inbox, Compose, Send Messages. Compose option allows us to compose new mails that can be sent to any user of the organization. Inbox option shows all messages received.
@@ -88,7 +88,8 @@ Here's why:
 * Secure Communication: It uses intranet or deployed on organisation's server, which prevals it from attacks of any foriegn access and it restrict the network access as it works on private IP.
 * It doesn't require internet for connectivity which helps organisation to save money and customise the features according to the needs.:smile:
 
-## Database Schema (Database: offline_connect)
+#### Database Schema (Database: offline_connect)
+<pre>
 +---------------------------+
 | Tables_in_offline_connect |
 +---------------------------+
@@ -98,7 +99,9 @@ Here's why:
 | users                     |
 +---------------------------+
 
+</pre>
 * Table: mails
+<pre> 
 +----------------+---------------+------+-----+---------+-------+
 | Field          | Type          | Null | Key | Default | Extra |
 +----------------+---------------+------+-----+---------+-------+
@@ -108,24 +111,27 @@ Here's why:
 | subject        | varchar(100)  | YES  |     | NULL    |       |
 | body           | varchar(1000) | YES  |     | NULL    |       |
 +----------------+---------------+------+-----+---------+-------+
-
+</pre> 
 * Table: organisation
+<pre> 
 +----------+-------------+------+-----+---------+-------+
 | Field    | Type        | Null | Key | Default | Extra |
 +----------+-------------+------+-----+---------+-------+
 | org_name | varchar(20) | YES  |     | NULL    |       |
 | hashcode | varchar(20) | NO   | PRI |         |       |
 +----------+-------------+------+-----+---------+-------+
-
+</pre> 
 * Table: user_org
+<pre> 
 +----------+-------------+------+-----+---------+-------+
 | Field    | Type        | Null | Key | Default | Extra |
 +----------+-------------+------+-----+---------+-------+
 | email    | varchar(40) | YES  |     | NULL    |       |
 | hashcode | varchar(20) | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
-
+</pre> 
 * Table: users
+<pre> 
 +----------+-------------+------+-----+---------+-------+
 | Field    | Type        | Null | Key | Default | Extra |
 +----------+-------------+------+-----+---------+-------+
@@ -133,7 +139,7 @@ Here's why:
 | email    | varchar(40) | NO   | PRI |         |       |
 | password | varchar(20) | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
-
+</pre> 
 Of course, this application is not market ready or a product. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. 
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
@@ -141,7 +147,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 
-This are the tools and plugins we've used to built this application
+These are the tools and plugins we've used to built this application
 * [Java](https://www.java.com/en/)
 * [JSP](https://www.oracle.com/java/technologies/jspt.html)
 * [Servlet](https://docs.oracle.com/javaee/6/api/javax/servlet/Servlet.html#:~:text=A%20servlet%20is%20a%20small,HTTP%2C%20the%20HyperText%20Transfer%20Protocol.&text=http.,a%20servlet%20from%20the%20server.)
@@ -158,10 +164,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-[Install Eclipse](https://www.eclipse.org/downloads/packages/installer)
-[Install MySQL](https://www.mysql.com/)
-[Add JDBC Connectivity](https://www.javahelps.com/2015/08/add-mysql-jdbc-driver-to-eclipse.html)
-[Set Up SQL Database]
+* [Install Eclipse](https://www.eclipse.org/downloads/packages/installer)
+* [Install MySQL](https://www.mysql.com/)
+* [Add JDBC Connectivity](https://www.javahelps.com/2015/08/add-mysql-jdbc-driver-to-eclipse.html)
+* Set Up SQL Database
   </br>
 
 
@@ -171,7 +177,9 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone BharatsDruv/Offline-Connect
    ```
-2. Run the app
+2. Import in Eclipse
+
+3. Run the app
    Using "Run as server" option
 
 
