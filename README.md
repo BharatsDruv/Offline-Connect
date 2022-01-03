@@ -80,13 +80,13 @@
 
  <img src="https://raw.githubusercontent.com/BharatsDruv/Offline-Connect/master/Offline-Connect.png" alt="Logo" width="768" height="432">
 
-This is an web-application build for smooth communication between departments of same organisations. <br>
-Features includes: New user registration, sign in of existing user, conventional mail options like Inbox, Compose, Send Messages. Compose option allows us to compose new mails that can be sent to any user of the organization. Inbox option shows all messages received.
+This is a web application built for smooth communication between departments of the same organisations.
+Features include New user registration, sign-in of existing users, conventional mail options like Inbox, Compose, Send Messages. Compose option allows us to compose new mails that can be sent to any user of the organization. The inbox option shows all messages received. <Br>
+    
 Need of the application:
-
 Here's why:
-* Secure Communication: It uses intranet or deployed on organisation's server, which prevals it from attacks of any foriegn access and it restrict the network access as it works on private IP.
-* It doesn't require internet for connectivity which helps organisation to save money and customise the features according to the needs.:smile:
+* Secure Communication: It uses an intranet and can be deployed on the organization's server, which prevails it from attacks of any foreign access and it restricts the network access as it works on private IP.
+*It doesn't require internet for connectivity. Therefore it helps organisations to save money and customize the features according to the needs.:smile:
 
 #### Database Schema (Database: offline_connect)
 <pre>
@@ -253,7 +253,7 @@ Project Link: [https://github.com/BharatsDruv/Offline-Connect](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/BharatsDruv/Offline-Connect.svg?style=for-the-badge
 [issues-url]: https://github.com/BharatsDruv/Offline-Connect/issues
 [license-shield]: https://img.shields.io/github/license/BharatsDruv/Offline-Connect.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/BharatsDruv/Offline-Connect/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bharatshrivastava/
 [product-screenshot]: Offline-Connect.png
